@@ -1,0 +1,389 @@
+
+@media only screen and (max-width: 1199px) {
+ .form_downlode{
+
+  
+  height:46vh !important;
+
+
+}
+
+}
+
+/* #Tablet (Landscape)
+================================================== */
+
+@media only screen and (max-width: 1080px) {
+
+.is-sticky #header,
+.is-sticky #hornav {
+	position: relative !important;
+	width: auto !important;
+	top: 0 !important;
+	left: 0;
+	margin-left: 0;
+}
+
+.primary-container-background .primary-container {width: 100%;}
+
+/* Disable CSS animations */
+.animated {
+    -webkit-animation-duration: 0;
+    animation-duration: 0;
+    -webkit-animation-delay: 0;
+    animation-delay: 0;
+}
+#pre_header{
+
+
+	display: none;
+}
+}
+
+/* #Tablet (Portrait)
+================================================== */
+    
+@media only screen and (max-width: 959px) {
+   
+
+}
+
+/* #Mobile (Landscape)
+================================================== */
+
+@media only screen and (max-width: 767px) {
+
+.carousel-control.right span, .carousel-control.icon-next span {
+    right: 20%;
+}
+.carousel-control.left span, .carousel-control.icon-prev span {
+    left: 15%;
+}.logo{
+
+
+
+	
+
+}
+  
+}
+
+/*  #Mobile (Portrait)
+================================================== */
+
+@media only screen and (max-width:630px) {
+
+.logo {
+display: none;
+
+
+}
+.logos img{
+
+height: 100px;
+width: auto;
+
+}
+.logos{
+
+
+	position:absolute;
+	top: 170px; 
+	left: 0;
+	right: 0;
+	text-align: center;
+
+}
+
+.mains{
+
+left: 0;
+right: 0;
+position: absolute;
+top: 100px;
+
+
+}
+
+	 
+}
+
+
+/*
+    Large Device
+*/
+@media only screen and (min-width: 1200px) {
+    .form_downlode{
+
+margin-top: -140px !important;
+
+height:66vh;
+overflow-y: scroll;
+
+}
+.v_pc{
+  
+}
+.principal_message{
+
+
+height: 50vh;
+  margin-top: -60px;
+
+}
+
+.importentlink{
+  margin-top: -90px !important;
+}
+
+}
+
+/* Medium */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container{
+
+    	width: 100%;
+    }
+    .principal_message{
+  
+height:60vh;
+
+  margin-top: -60px;
+
+}
+    .form_downlode{
+
+margin-top: -190px !important;
+
+height: 65vh !important;
+display: block;
+
+
+}
+
+
+.left_parts{
+margin-bottom: 50px;
+
+  height: 90vh;
+}
+#pre_header {
+
+	display: none;
+}
+.importentlink{
+	margin-top: -100px !important;
+}
+
+    
+       
+} /* End Line of Media Query */
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.principal_message{
+
+
+
+  margin-top: -130px;
+  margin-bottom: 160px;
+}
+.gif{
+
+  display: none;
+}
+
+.form_downlode{
+margin-top: -130px;
+  margin-bottom: 70px; 
+  height: 59vh !important;
+
+
+}
+     .container{
+      
+    	width: 100%;
+    }
+    .logo {
+display: none;
+
+
+}
+.logos img{
+
+height: 110px;
+width: auto;
+
+
+}
+.logos{
+
+
+	position:absolute;
+	top: 188px; 
+	left: 0;
+	right: 0;
+	text-align: center;
+
+}
+
+.mains{
+
+left: 0;
+right: 0;
+position: absolute;
+top: 100px;
+
+
+}
+.notice_board {
+
+  margin-left: 1px;
+
+
+}
+.left_parts{
+  margin-left: 1px;
+}
+.principal_message{
+
+  margin-left: 1px;
+
+
+
+}
+.form_downlode{
+
+  margin-left: 1px;
+
+
+
+}
+.importentlink{
+
+  margin-left: 1px;
+margin-right:-22px;
+
+}
+.importentlink span{
+ margin-left: 20px;
+
+
+
+}
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .gif{
+
+  display: none;
+}
+   
+  .container{
+    
+    	width: 100%;
+    }
+    .principal_message{
+
+
+
+  margin-top: -130px;
+  margin-bottom: 160px;
+}
+.form_downlode{
+margin-top: -130px;
+  margin-bottom: 50px; 
+height: 69vh !important;
+
+overflow-y: scroll;
+}
+.form_downlode {
+
+
+}
+
+.logos img{
+
+height: 110px;
+width: auto;
+
+
+}
+   .logo {
+display: none;
+
+
+}
+.logos{
+
+
+	position:absolute;
+	top: 188px;
+	left: 0;
+	right: 0;
+	text-align: center;
+
+}
+
+.mains{
+
+left: 0;
+right: 0;
+position: absolute;
+top: 100px;
+
+
+}
+.notice_board {
+
+  margin-left: 1px;
+
+
+}
+.left_parts{
+  margin-left: 1px;
+}
+.principal_message{
+
+  margin-left: 1px;
+
+
+
+}
+.form_downlode .forms{
+
+text-align: center;
+
+
+
+}
+.importentlink{
+
+
+margin-right:-22px;
+
+}
+.importentlink span{
+ margin-left: 20px;
+
+
+
+}
+
+}
+
+/* Wide Mobile */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	 .container{
+  
+    	width: 100%;
+    }
+
+.gif{
+
+  display: none;
+}
+   
+
+}
